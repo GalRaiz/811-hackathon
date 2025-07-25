@@ -1,0 +1,58 @@
+// Color Palette
+$primary-color: #0a591e;
+$secondary-color: #000000;
+$background-color: #f3fdfa;
+$text-color: #042f19;
+$border-color: #324b4e;
+$highlight-color: #f1d0a2;
+$error-color: #d25753;
+$notification-color: #5bd1de;
+
+// Typography
+$text-font-family-body: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size: 16px;
+$line-height: 1.5;
+
+// Headers
+$header-font-family: "Merriweather", Georgia, serif;
+$header-font-weight: 700;
+$h1-font-size: 36px;
+$h2-font-size: 30px;
+$h3-font-size: 24px;
+$h4-font-size: 20px;
+$h5-font-size: 18px;
+$h6-font-size: 16px;
+
+// Body Text
+$title-font-family: "Lora", Georgia, serif;
+$sub-title-font-family: "Open Sans", sans-serif;
+$body-font-size: $base-font-size;
+$body-font-weight: 400;
+$body-line-height: $line-height;
+
+// Text Colors
+$text-primary: $text-color;
+$text-secondary: $secondary-color;
+$text-muted: #6c757d;
+$text-link: $primary-color;
+$text-inverse: #ffffff;
+
+// Borders & Shadow
+$border-radius: 4px;
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+// Spacing
+$padding-xs: 4px;
+$padding-small: 8px;
+$padding-normal: 16px;
+$padding-medium: 24px;
+$padding-large: 32px;
+
+// Button
+$button-font-size: $base-font-size;
+$button-padding: $padding-small $padding-normal;
+$button-border-radius: $border-radius;
+$button-primary-bg: $primary-color;
+$button-secondary-bg: $secondary-color;
+$button-tertiary-bg: $background-color;
+$button-color: $text-inverse;

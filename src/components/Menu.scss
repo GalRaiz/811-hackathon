@@ -1,0 +1,54 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.wine-type h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.wine-type ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.wine-type li {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  transition: background-color 0.2s;
+}
+
+.wine-type li:hover {
+  background-color: #f0f0f0;
+}
+
+.wine-details {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 300px;
+}
+
+.wine-details img {
+  width: 100%;
+  height: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}

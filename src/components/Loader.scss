@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+.loader-container {
+  position: fixed;
+  top: 20%; /* Adjusted to position the loader higher */
+  left: 50%;
+  transform: translate(-50%, -20%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9999;
+}
+
+.Loader-app-logo {
+  width: 300px;
+}
+
+.speech-bubble {
+  position: relative;
+  padding: 15px 30px;
+  background-color: #0099ff;
+  border-radius: 25px;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  animation: bubbleAnimation 2s ease-in-out infinite;
+}
+
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 25px;
+  background-color: #0099ff;
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+
+.loader-text {
+  margin: 0;
+  white-space: nowrap;
+}
+
+@keyframes bubbleAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
